@@ -1,0 +1,129 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conatiner {
+    max-width: 1275px;
+    margin: auto;
+}
+
+.hero-section {
+    background: cadetblue;
+
+
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #3a6488;
+    width: 100%;
+}
+
+.nav-logo {
+    width: 50%;
+}
+
+.hero-logo {
+    width: 9%;
+    border-radius: 76px;
+    border: 1px solid cadetblue;
+}
+
+.hero-title {
+    padding: 102px 0;
+}
+
+.hero-heading h1 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.hero-para {
+    text-align: center;
+}
+
+.hero-title-btn {
+    text-align: center;
+}
+
+.hero-title-btn-1 {
+    background: none;
+    font-size: 24px;
+    font-style: normal;
+    border: none;
+    text-decoration: inherit;
+}
+
+.section-body {
+    text-align: center;
+    background: antiquewhite;
+    border-radius: 20px;
+}
+
+.section-body-header h1 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.hero-section-footer {
+    text-align: center;
+}
+
+.hero-section-footer-heading h1 {
+    font-size: 23px;
+}
+
+.footer-icone {
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.hero-img {
+    width: 40%;
+    border-radius: 10px;
+}
+.header-img-title{
+    text-align: center;
+    padding-top: 105px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .conatiner {
+        max-width: 480px;
+        margin: auto;
+    }
+
+    .hero-logo {
+        width: 26%;
+        border-radius: 76px;
+        border: 1px solid cadetblue;
+    }
+}
